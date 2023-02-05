@@ -1,0 +1,102 @@
+:root {
+    scroll-behavior: smooth;
+  }
+
+body{
+    margin-bottom: 4px;
+    margin-top: 4px;
+    margin-left: 10px;
+    margin-right: 8px;
+    background-color: rgb(214, 251, 210);
+}
+
+#laa{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(32, 11, 116);
+    background-color: rgb(135, 243, 175);
+    height: 150px;
+    width: 400px;
+    text-justify: initial;
+    font-size: 46px;
+    margin-top: 2px;
+    padding-top: 30px;
+}
+
+#laa:hover{
+    background-color: rgb(51, 186, 141);
+    text-shadow: 2px 1px 3px;
+    transform: rotateX(30deg);    
+    transition: 2s;
+}
+#loo:hover{
+    transform: rotateZ(360deg);
+    transition: 1s;
+}
+
+ul{
+    background-color: rgb(0, 0, 0);
+    margin-top: 13px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+ul:hover{
+    transform: skewX(7deg);
+    transition: 0.3s;
+}
+
+#garden{
+    margin-top: 55px;
+}
+#garden:hover{
+    transform: rotate(1deg);
+    transition: 1s;
+}
+
+#garden2{
+    margin-top: 37px;
+}
+
+.footer{
+    background-color: black;
+    position: relative;
+    height: 140px;
+    margin-top: 90px;
+    clear: both;
+    text-align: justify;
+    color: aqua;
+}
+
+#pm{
+    padding-top: 10px;
+}
+#ln{
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+.footer:hover{
+    color: aliceblue;
+    box-shadow: 0 0 10px navy;
+}
+
+#garden:hover{
+    box-shadow: 0 0 20px yellow;
+}
+
+.la:hover{
+    box-shadow: 0 0 20px green;
+}
+.lq:hover{
+    box-shadow: 0 0 20px green;
+}
+.lw:hover{
+    box-shadow: 0 0 20px green;
+}
+.lx:hover{
+    box-shadow: 0 0 29px rgb(234, 113, 113);
+}
+
+/*footer img{
+    max-width: 11%;
+}*/
